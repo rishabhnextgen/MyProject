@@ -24,7 +24,7 @@ import com.mystore.pageobjects.ShippingPage;
 import com.mystore.utility.Log;
 
 /**
- * @author Hitendra
+ *
  *
  */
 public class EndToEndTest extends BaseClass {

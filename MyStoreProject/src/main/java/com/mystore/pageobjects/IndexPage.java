@@ -27,6 +27,9 @@ public class IndexPage extends BaseClass {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
+	
+	
+	
 	public LoginPage clickOnSignIn() throws Throwable {
 		action.fluentWait(getDriver(), signInBtn, 10);
 		action.click(getDriver(), signInBtn);

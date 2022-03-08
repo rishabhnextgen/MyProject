@@ -30,7 +30,7 @@ import com.mystore.actioninterface.ActionInterface;
 import com.mystore.base.BaseClass;
 
 /**
- * @author Hitendra Verma added on 13th March2019
+ * @author 
  *
  */
 public class Action extends BaseClass implements ActionInterface {
@@ -171,18 +171,6 @@ public class Action extends BaseClass implements ActionInterface {
 		}
 	}
 
-	/**
-	 * select value from DropDown by using selectByIndex
-	 * 
-	 * @param locator     : Action to be performed on element (Get it from Object
-	 *                    repository)
-	 * 
-	 * @param index       : Index of value wish to select from dropdown list.
-	 * 
-	 * @param locatorName : Meaningful name to the element (Ex:Year Dropdown, items
-	 *                    Listbox etc..)
-	 * 
-	 */
 	@Override
 	public boolean selectByIndex(WebElement element, int index) {
 		boolean flag = false;
@@ -604,7 +592,8 @@ public class Action extends BaseClass implements ActionInterface {
 		} catch (Exception e) {
 			flag = false;
 			return flag;
-		} finally {
+		}
+		finally {
 			if (flag) {
 				System.out.println("Focus navigated to the window with title");			
 			} else {
