@@ -15,6 +15,7 @@
 			<class name="com.mystore.testcases.LoginPageTest" />
 			<class name="com.mystore.testcases.IndexPageTest" />
 			<class name="com.mystore.testcases.EndToEndTest" />
-		</classes>
+		
+		  </classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

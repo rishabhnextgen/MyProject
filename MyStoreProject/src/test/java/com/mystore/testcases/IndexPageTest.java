@@ -12,7 +12,7 @@ import com.mystore.pageobjects.IndexPage;
 import com.mystore.utility.Log;
 
 /**
- * @author Hitendra
+ * @ Rishabh
  *
  */
 public class IndexPageTest extends BaseClass {

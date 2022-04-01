@@ -26,10 +26,6 @@ public class LoginPageTest extends BaseClass {
 	private HomePage homePage;
 	
 	
-	/*
-	 * 6070417501785701 11/22 297
-	 */
-	
 	@Parameters("browser")
 	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
 	public void setup(String browser) {

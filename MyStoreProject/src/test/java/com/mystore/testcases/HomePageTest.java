@@ -17,8 +17,8 @@ import com.mystore.pageobjects.LoginPage;
 import com.mystore.utility.Log;
 
 /**
- * @author Hitendra
- *
+ * @author  Rishabh 
+ * 
  */
 public class HomePageTest extends BaseClass {
 	private IndexPage indexPage;

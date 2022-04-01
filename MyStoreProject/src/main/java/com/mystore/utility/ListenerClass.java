@@ -28,7 +28,8 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 		}
 	}
 
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailure(ITestResult result) 
+	{
 		if (result.getStatus() == ITestResult.FAILURE) {
 			try {
 				test.log(Status.FAIL,

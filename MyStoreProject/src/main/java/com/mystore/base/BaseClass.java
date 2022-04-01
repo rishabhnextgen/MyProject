@@ -71,10 +71,15 @@ public class BaseClass {
 			WebDriverManager.iedriver().setup();
 			driver.set(new InternetExplorerDriver());
 		}
+		
 		//Maximize the screen
+		
 		getDriver().manage().window().maximize();
+		
 		//Delete all the cookies
 		getDriver().manage().deleteAllCookies();
+		
+		
 		//Implicit TimeOuts
 		getDriver().manage().timeouts().implicitlyWait
 		(Integer.parseInt(prop.getProperty("implicitWait")),TimeUnit.SECONDS);
@@ -85,6 +90,7 @@ public class BaseClass {
 		getDriver().get(prop.getProperty("url"));
 	}
 
+	
 	@AfterSuite(groups = { "Smoke", "Regression","Sanity" })
 	public void afterSuite() {
 		ExtentManager.endReport();

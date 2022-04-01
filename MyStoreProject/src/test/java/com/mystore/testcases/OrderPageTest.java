@@ -18,7 +18,7 @@ import com.mystore.pageobjects.SearchResultPage;
 import com.mystore.utility.Log;
 
 /**
- * @author Hitendra
+ * @author Rishabh 
  *
  */
 public class OrderPageTest extends BaseClass {
